@@ -2,6 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71f683a7-60a5-4484-9156-621d0b6efa9e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProBlack-Italic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProBlack-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProBlack-Italic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProBlack.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProBlack.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProBlack.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProBold-Italic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProBold-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProBold-Italic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProBold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProBold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProBold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProExtraLight-Italic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProExtraLight-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProExtraLight-Italic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProExtraLight.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProExtraLight.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProExtraLight.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProLight-Italic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProLight-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProLight-Italic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProLight.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProLight.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProLight.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProMedium-Italic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProMedium-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProMedium-Italic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProMedium.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProMedium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProMedium.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProRegular-Italic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProRegular-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProRegular-Italic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProRegular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProRegular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProRegular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProSemiBold-Italic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProSemiBold-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProSemiBold-Italic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProSemiBold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProSemiBold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProSemiBold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProUltraLight-Italic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProUltraLight-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProUltraLight-Italic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProUltraLight.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProUltraLight.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/SofiaProUltraLight.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/Rectangle 24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/Rectangle 26.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/Rectangle 27.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/Rectangle 28.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/Rectangle 56.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/bas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/capodopera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/chair.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/hand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/moroso.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/mouse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/valcucine.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/wall-deco.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/zone-denmark-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/boot/bootstrap-grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/sass/sections/_media.scss" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/001-calendar.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/003-article.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/004-music-and-multimedia.png" afterPath="" />
@@ -44,9 +109,12 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/twit.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/second.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/third.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/SlickNav-master/dist/jquery.slicknav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/SlickNav-master/dist/slicknav.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/tabs/jquery-ui.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/pages/page/main.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/pages/page/post.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/sass/sections/_desctop.scss" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/sass/sections/_mobile.scss" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/sass/sections/bootstrap.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -59,7 +127,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.scss" afterPath="$PROJECT_DIR$/app/sass/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/sass/sections/_desctop.scss" afterPath="$PROJECT_DIR$/app/sass/sections/_media.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,12 +137,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="74">
+              <caret line="142" column="26" lean-forward="true" selection-start-line="142" selection-start-column="26" selection-end-line="142" selection-end-column="26" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,16 +154,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="129">
               <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -123,7 +182,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/img</find>
       <find>../../img/</find>
       <find>/img/</find>
       <find>london.png</find>
@@ -153,6 +211,7 @@
       <find>../img</find>
       <find>mbg</find>
       <find>.container</find>
+      <find>box</find>
     </findStrings>
     <replaceStrings>
       <replace>/img/</replace>
@@ -200,8 +259,8 @@
         <option value="$PROJECT_DIR$/app/fonts/stylesheet.css" />
         <option value="$PROJECT_DIR$/app/sass/layout/_fonts.scss" />
         <option value="$PROJECT_DIR$/app/sass/main.scss" />
-        <option value="$PROJECT_DIR$/app/pages/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/pages/index.html" />
       </list>
     </option>
   </component>
@@ -259,6 +318,11 @@
             <path>
               <item name="dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -343,7 +407,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="307024000" />
+    <option name="totallyTimeSpent" value="308211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,13 +487,6 @@
     <entry file="file://$PROJECT_DIR$/app/img/img13.png" />
     <entry file="file://$PROJECT_DIR$/app/img/cnn.png" />
     <entry file="file://$PROJECT_DIR$/app/img/img.png" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -563,10 +620,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/index.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -579,11 +644,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/app/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="74">
+          <caret line="142" column="26" lean-forward="true" selection-start-line="142" selection-start-column="26" selection-end-line="142" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
