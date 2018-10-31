@@ -1,0 +1,123 @@
+//Media
+$phone-width: 320px;
+$middlephone-width: 480px;
+$tablet-width: 768px;
+$laptop-width: 992px;
+$desktop-width: 1200px;
+$large-desktop-width: 1800px;
+@mixin phone {
+    @media (min-width: #{$phone-width}) {
+        @content;
+    }
+}
+
+@mixin phoneb {
+    @media (min-width: #{$phone-width}) and (max-width: #{$tablet-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin phoneboo {
+    @media (min-width: #{$phone-width}) and (max-width: #{$middlephone-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin phonem {
+    @media (max-width: #{$tablet-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin mphone {
+    @media (min-width: #{$middlephone-width}) {
+        @content;
+    }
+}
+
+@mixin mphoneb {
+    @media (min-width: #{$middlephone-width}) and (max-width: #{$tablet-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: #{$tablet-width}) {
+        @content;
+    }
+}
+
+@mixin tabletb {
+    @media (min-width: #{$tablet-width}) and (max-width: #{$laptop-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin tabletm {
+    @media (max-width: #{$laptop-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media (min-width: #{$laptop-width}) {
+        @content;
+    }
+}
+
+@mixin laptopb {
+    @media (min-width: #{$laptop-width}) and (max-width: #{$desktop-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin laptopm {
+    @media (max-width: #{$desktop-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$desktop-width}) {
+        @content;
+    }
+}
+
+@mixin desktopb {
+    @media (min-width: #{$desktop-width}) and (max-width: #{$large-desktop-width}) {
+        @content;
+    }
+}
+
+@mixin desktopm {
+    @media (max-width: #{$desktop-width}) {
+        @content;
+    }
+}
+@mixin flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+//clearfix
+// use
+//  @extend %clearfix;
+%clearfix {
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+//font-face
+// @mixin font-face($font-family, $file-path, $weight: normal, $style: normal, $asset-pipeline: false )
+//     @font-face
+//         font-family: $font-family
+//         font-weight: $weight
+//         font-style: $style
+//         @if $asset-pipeline == true 
+//             src: font-url('#{$file-path}.eot')
+//             src: font-url('#{$file-path}.eot?#iefix') format('embedded-opentype'), font-url('#{$file-path}.woff') format('woff'), font-url('#{$file-path}.ttf') format('truetype')
+//         @else
+//             src: url('#{$file-path}.eot')
+//             src: url('#{$file-path}.eot?#iefix') format('embedded-opentype'), url('#{$file-path}.woff') format('woff'), url('#{$file-path}.ttf') format('truetype')

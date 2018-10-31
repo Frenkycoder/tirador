@@ -1,0 +1,18 @@
+{
+  "name": "tiraador",
+  "version": "1.0.0",
+  "description": "task",
+  "main": "test project",
+  "dependencies": {
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Andrii",
+  "license": "ISC"
+}

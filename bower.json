@@ -1,0 +1,24 @@
+{
+  "name": "template",
+  "description": "My template",
+  "main": "gulpfile.js",
+  "authors": [
+    "Uriy Kuchma aka krabaton"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize-css": "^6.0.0",
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {}
+}
