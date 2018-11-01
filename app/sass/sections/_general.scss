@@ -1,0 +1,159 @@
+.hero {
+  background-color: $wh;
+  padding-bottom: 150px;
+  &__price {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    padding-bottom: 15px;
+  }
+  & .title {
+    text-align: right;
+    margin-bottom: 35px;
+  }
+  &__span {
+    font-size: 16px;
+    color: $grey;
+    padding-bottom: 40px;
+    text-align: right;
+  }
+  &__chair {
+    padding-top: 30px;
+  }
+  &__box {
+    @include flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 90px;
+    height: 100%;
+  }
+  &__wrap {
+    position: relative;
+    margin-right: auto;
+    background-color: #B1DFDD;
+    height: 685px;
+    width: 704px;
+    border-radius: 50%;
+    margin-bottom: 60px;
+    & .title {
+      position: absolute;
+      z-index: 10;
+      text-align: right;
+      left: -25%;
+      top: 31%;
+    }
+    & img {
+      max-width: 100%;
+      height: auto;
+      position: absolute;
+      bottom: 0;
+      right: 74px;
+    }
+  }
+  &__mouse {
+
+  }
+  &__txt {
+    & li {
+      display: inline-block;
+      margin-right: 20px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.title {
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: $red;
+  border-radius: 21px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  color: $wh;
+  padding: 11px 24px 14px 31px;
+  height: 41px;
+  width: 148px;
+  border: 0;
+  & i {
+    padding-left: 12px;
+    vertical-align: middle;
+    font-weight: bold;
+  }
+}
+
+.bas {
+  background-color: $bgrey;
+  padding: 150px 0;
+  & .mycol {
+    padding: 0px 75px;
+  }
+  &_sec {
+    & .bas__item {
+      margin-bottom: 20px;
+    }
+
+  }
+  & .box {
+    text-align: right;
+  }
+  & .btn {
+    margin-top: 25px;
+    text-align: center;
+    & i {
+      margin-right: 13px;
+      padding-left: 0;
+    }
+  }
+  & img {
+    text-align: center;
+  }
+  & .container-fluid {
+    padding-right: 0;
+  }
+  & .title {
+    padding-bottom: 25px;
+  }
+  & .title, & p {
+    text-align: right;
+  }
+  & p {
+    text-align: justify;
+    line-height: 25px;
+  }
+  &__item {
+    margin-bottom: 40px;
+  }
+  &__link {
+    font-size: 14px;
+    font-weight: bold;
+    color: $grey;
+    width: 100%;
+    display: block;
+    position: relative;
+    &:hover {
+      color: $bl;
+      &::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        width: 30%;
+        top: 50%;
+        height: 1px;
+        background-color: #000000;
+      }
+    }
+  }
+}
+
+.white-background {
+  background-color: $wh;
+}
