@@ -3,7 +3,7 @@
   "description": "My template",
   "main": "gulpfile.js",
   "authors": [
-    "Uriy Kuchma aka krabaton"
+    "Andrii"
   ],
   "license": "ISC",
   "homepage": "",
@@ -17,8 +17,7 @@
   ],
   "dependencies": {
     "jquery": "^3.2.1",
-    "normalize-css": "^6.0.0",
-    "bootstrap": "^3.3.7"
+    "normalize-css": "^6.0.0"
   },
   "devDependencies": {}
 }
