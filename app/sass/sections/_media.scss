@@ -24,8 +24,12 @@
       padding-left: 150px;
     }
   }
+  .slider {
+    & .slidetxtwrap {
+      //width: 376px;
+    }
+  }
 }
-
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {  }
 

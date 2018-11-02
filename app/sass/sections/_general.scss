@@ -100,6 +100,13 @@
     & .bas__item {
       margin-bottom: 20px;
     }
+    & .text-col {
+      margin-left: 0;
+      margin-right: 5%;
+    }
+    & .img-col {
+      margin-right: 5%;
+    }
   }
   & .box {
     text-align: right;
@@ -151,8 +158,206 @@
       }
     }
   }
+  & .mycontainer-fluid {
+    margin-left: 8%;
+  }
 }
 
 .white-background {
   background-color: $wh;
+}
+
+.mycontainer-fluid {
+  @include flex;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.img-col {
+  flex: 0 0 46%;
+  max-width: 46%;
+}
+
+.text-col {
+  flex: 0 0 26%;
+  max-width: 26%;
+  margin: 0 5%;
+}
+
+.list-col {
+  flex: 0 0 10%;
+  max-width: 10%;
+}
+
+.grey {
+  padding-top: 104px;
+  padding-bottom: 120px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: right;
+  & .mycontainer-fluid {
+      padding-right: 17%;
+      justify-content: flex-end;
+  }
+  & .box {
+    max-width: 630px;
+    & .title {
+      margin-bottom: 40px;
+    }
+    & p {
+      margin-bottom: 40px;
+    }
+    & .subtitle {
+      margin-bottom: 25px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    & a {
+      font-size: 20px;
+      font-weight: bold;
+      color: $red;
+      & i {
+        margin-right: 8px;
+        font-size: 20px;
+        font-weight: bold;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+.slider {
+  padding: 150px 0;
+  & .active {
+    animation-duration: 2s;
+    & .actbox {
+      opacity: 1;
+      display: block;
+      height: auto;
+      & .big {
+        height: 350px;
+      }
+    }
+    & .smwrap {
+      display: none;
+    }
+  }
+  & p {
+    text-align: right;
+  }
+  & h4 {
+    margin-top: 8px;
+    margin-right: 1px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+    line-height: 21px;
+    margin-bottom: 40px;
+  }
+  & span {
+    font-weight: 400;
+    font-size: 16px;
+    color: $grey;
+    text-align: right;
+  }
+  &-col {
+    width: 100%;
+    max-width: 1386px;
+    position: relative;
+    padding: 0 10%;
+  }
+  & .mycontainer-fluid {
+    padding: 0 8%;
+    justify-content: center;
+  }
+  & .title {
+    text-align: right;
+    padding-bottom: 60px;
+  }
+  & .actbox {
+    opacity: 0;
+    display: none;
+    position: relative;
+    & .big {
+      height: 0;
+    }
+    & .slidetxtwrap {
+      position: absolute;
+      right: 175px;
+      top: -13px;
+      width: 376px;
+      & p {
+        font-weight: bold;
+        font-size: 20px;
+        text-align: right;
+      }
+    }
+  }
+  & .smwrap {
+    max-width: 140px;
+  }
+  &__list {
+    align-items: baseline;
+    @include flex;
+    & li {
+      flex: 0 1 16%;
+      margin-right: 7px;
+      & a {
+        position: relative;
+        display: block;
+        padding-bottom: 14px;
+        border-bottom: 3px solid transparent;
+        & + h4 {
+          opacity: 0;
+        }
+        &:hover {
+          transition: all 0.25s ease-out;
+          opacity: 0.7;
+          border-bottom: 3px solid #B1DFDD;
+          & + h4 {
+            transition: all 0.25s ease-out;
+            opacity: 1;
+          }
+          &::after { 
+            content: '';
+            position: absolute;
+            bottom: 28px;
+            right: 26px;
+            width: 20px;
+            height: 20px;
+            background-image: url("../../img/click.png");
+          }
+        }
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  & img {
+    height: auto;
+    max-width: 100%;
+  }
+}
+
+.control {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  background-color: $red;
+  @include flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: $wh;
+  font-size: 17px;
+  bottom: 25%;
+  &.left {
+    left: 0;
+  }
+  &.right {
+    right: 0;
+  }
 }

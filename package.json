@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "task",
   "main": "test project",
-  "dependencies": {},
+  "dependencies": {
+    "animate.css": "^3.7.0"
+  },
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "del": "^3.0.0",
