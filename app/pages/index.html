@@ -35,11 +35,25 @@
             <div class="header__bottom">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-12 col-md-2">
+                        <div class="col-12 col-md-2 col-lg-2">
                             <img src="../img/logo.png" alt="" class="logo">
+                            <a href="#main-menu" class="menu-toggle"
+                               role="button"
+                               id="main-menu-toggle"
+                               aria-expanded="false"
+                               aria-controls="main-menu"
+                               aria-label="Open main menu">
+                                <span class="sr-only">Open main menu</span>
+                                <span class="fa fa-bars"></span>
+                            </a>
                         </div>
-                        <div class="col-12 col-md-8">
-                            <nav class="nav">
+                        <div class="col-12 col-md-7 col-lg-8">
+                            <nav class="nav" id="main-menu" role="navigation" aria-expanded="false" aria-label="Main menu">
+                                <a href="#main-menu-toggle" class="menu-close" role="button" aria-expanded="false"
+                                   aria-controls="main-menu"   aria-label="Close main menu">
+                                    <span class="sr-only">Close main menu</span>
+                                    <span class="fa fa-close" aria-hidden="true"></span>
+                                </a>
                                 <ul class="nav__list">
                                     <li class="nav__item"><a href="" class="nav__link">חנות אונליין</a></li>
                                     <li class="nav__item"><a href="" class="nav__link">קטלוגים </a></li>
@@ -50,8 +64,9 @@
                                     <li class="nav__item"><a href="" class="nav__link">חדשות </a></li>
                                 </ul>
                             </nav>
+                            <a href="#main-menu-toggle" class="backdrop"  tabindex="-1" aria-hidden="true" hidden></a>
                         </div>
-                        <div class="col-12 col-md-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <ul class="soc">
                                 <li class="soc__item"><a href="" class="soc__link"><img src="../img/instagram.png"
                                                                                         alt=""></a></li>
@@ -330,10 +345,32 @@
                     <div class="title">ידיעון</div>
                     <p class="form__subt">אל תדאג, אנחנו לא זבל</p>
                     <form action="" method="post">
-                        <input type="email" class="form__field">
-                        <input type="text" class="form__field">
-                        <input type="text" class="form__field">
-                        <button type="submit" class="btn"></button>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4 col-12">
+                                    <div class="email">
+                                        <img src="../img/mail.png" alt="">
+                                        <input id="email" type="email" class="form__field">
+                                        <label for="email">מייל</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <div class="user">
+                                        <img src="../img/user.png" alt="">
+                                        <input id="user" type="text" class="form__field">
+                                        <label for="user">משפחה</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <div class="user">
+                                        <img src="../img/user.png" alt="">
+                                        <input id="use2" type="text" class="form__field">
+                                        <label for="use2">שם פרטי</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn"><i class="fa fa-angle-left"></i>לִשְׁלוֹחַ</button>
                     </form>
                 </div>
             </div>
@@ -343,22 +380,16 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-4">
+            <div class="col-md-3 firstcol">
                 <img src="../img/logo.png" alt="" class="logo">
                 <a href="tel:086309000" class="phone">טלפון: 086309000</a>
-                <a href="mailto:info@tirador.co.il" class="mail">:דואר אלקטרוני:info@tirador.co.il</a>
+                <a href="mailto:info@tirador.co.il" class="mail"><span>info@tirador.co.il </span> :דואר אלקטרוני</a>
             </div>
-            <div class="col-2">
+            <div class="col-2 offset-md-1">
                 <ul class="footlist">
                     <li><a href="#">אודותנו</a></li>
                     <li><a href="#">המותגים שלנו</a></li>
-                    <li><a href="
-                    <ul class=" footlist">
                     <li><a href="#">אודותנו</a></li>
-                    <li><a href="#">המותגים שלנו</a></li>
-                    <li><a href="#">המוצרים שלנו</a></li>
-                </ul>
-                #">המוצרים שלנו</a></li>
                 </ul>
             </div>
             <div class="col-2">
@@ -384,25 +415,29 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
-                <div class="col-4">
-                    <div class="copy">
-                        © Copyright 2018 by LAGERBOX
-                    </div>
+            <div class="col-4">
+                <div class="copy">
+                    © Copyright 2018 by LAGERBOX
                 </div>
-                <div class="col-4">
-                    <form action="" class="search">
-                        <input type="search">
-                    </form>
-                </div>
-                <div class="col-4">
-                    <ul class="soc">
-                        <li class="soc__item"><a href="" class="soc__link"></a></li>
-                        <li class="soc__item"><a href="" class="soc__link"></a></li>
-                        <li class="soc__item"><a href="" class="soc__link"></a></li>
-                        <li class="soc__item"><a href="" class="soc__link"></a></li>
-                    </ul>
-                </div>
+            </div>
+            <div class="col-4">
+                <form action="" class="search">
+                    <i class="fa fa-search"></i>
+                    <input id="search" type="search">
+                    <label for="search">לחפש</label>
+                </form>
+            </div>
+            <div class="col-4">
+                <ul class="soc">
+                    <li class="soc__item"><a href="" class="soc__link"><img src="../img/instagramred.png" alt=""></a>
+                    </li>
+                    <li class="soc__item"><a href="" class="soc__link"><img src="../img/facebookred.png" alt=""></a>
+                    </li>
+                    <li class="soc__item"><a href="" class="soc__link"><img src="../img/pinterestred.png" alt=""></a>
+                    </li>
+                    <li class="soc__item"><a href="" class="soc__link"><img src="../img/youtubered.png" alt=""></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>

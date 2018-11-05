@@ -361,3 +361,75 @@
     right: 0;
   }
 }
+
+.form {
+  height: 465px;
+  background-image: url("../../img/formbg.png");
+  padding-top: 72px;
+  padding-bottom: 90px;
+  text-align: center;
+  & .container {
+    max-width: 1188px;
+  }
+  &__field {
+    width: 100%;
+    height: 30px;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid $wh;
+    color: $wh;
+    padding-left: 40px;
+    padding-right: 30px;
+    outline: none;
+  }
+  & .col-md-4:first-child {
+    text-align: left;
+  }
+  & .col-md-4:last-child {
+    text-align: right;
+  }
+  & .title {
+    color: $wh;
+    padding-bottom: 15px;
+  }
+  &__subt {
+    color: $wh;
+    padding-bottom: 51px;
+  }
+  & .email, & .user {
+    position: relative;
+    width: 252px;
+  }
+  & .user {
+    margin: 0 auto;
+    & input {
+      padding-right: 53px;
+    }
+  }
+  & .email img {
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+  & .user img {
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+
+  & label {
+    position: absolute;
+    right: 0;
+    color: #fff;
+    top: -3px;
+  }
+
+  & .btn {
+    text-align: center;
+    margin-top: 61px;
+    & i {
+      margin-right: 13px;
+      padding-left: 0;
+    }
+  }
+}
