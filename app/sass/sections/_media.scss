@@ -1,10 +1,13 @@
-@media (min-width: 576px) {  }
+@media (min-width: 576px) {
+}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {  }
+@media (min-width: 768px) {
+}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {  }
+@media (min-width: 992px) {
+}
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
@@ -61,15 +64,36 @@
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
-.header__top {
-  display: none;
-}
+  .hero {
+    &__chair {
+      padding-top: 0;
+    }
+    &__box {
+      margin-top: 0;
+    }
+  }
+  .header__top {
+    display: none;
+  }
   .header {
-    & .logo, & .soc {
+    & .soc_h {
+      display: block;
+    }
+    & .socialcol {
       display: none;
     }
   }
-
+  .menu-toggle {
+    display: block;
+    float: right;
+    padding-top: 21px;
+  }
+  .fa-close {
+    color: $wh;
+    display: block;
+    padding-right: 5px;
+    padding-top: 5px;
+  }
   .nav {
     position: absolute;
     left: -200px;
@@ -80,35 +104,98 @@
     transition: left 0.3s ease,
     box-shadow 0.3s ease;
     z-index: 999;
+    &:target,
+    &[aria-expanded="true"] {
+      left: 0;
+      outline: none;
+      box-shadow: 3px 0 12px rgba(0, 0, 0, .25);
+    }
+    &:target .menu-close,
+    &[aria-expanded="true"] .menu-close {
+      z-index: 1001;
+    }
+    &:target ul,
+    &[aria-expanded="true"] ul {
+      position: relative;
+      z-index: 1000;
+    }
+    &:target + .backdrop,
+    &[aria-expanded="true"] + .backdrop {
+      position: absolute;
+      display: block;
+      content: "";
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 998;
+      background: #000;
+      background: rgba(0, 0, 0, .85);
+      cursor: default;
+    }
+    & .menu-close {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
     &__list {
       list-style: none;
       margin: 0;
       padding: 2.5em 0 0;
       /* Hide shadow w/ -8px while 'closed' */
-      -webkit-box-shadow: -8px 0 8px rgba(0,0,0,.5);
-      -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
-      box-shadow: -8px 0 8px rgba(0,0,0,.5);
+      box-shadow: -8px 0 8px rgba(0, 0, 0, .5);
       min-height: 100%;
       width: 200px;
       background: #1a1a1a;
+    }
+    &__link {
+      display: block;
+      padding: .75em 15px;
+      line-height: 1em;
+      font-size: 1em;
+      color: #fff;
+      text-decoration: none;
+      border-bottom: 1px solid #383838;
+      &:hover, &:focus {
+        background: #333;
+        text-decoration: underline;
+      }
+    }
+    &__item {
+      margin-right: 0;
+      display: block;
+    }
+    &__item:first-child a {
+      border-top: 1px solid #383838;
+    }
+  }
+  @supports (position: fixed) {
+    .nav,
+    .nav:target + .backdrop,
+    .nav[aria-expanded="true"] + .backdrop {
+      position: fixed;
     }
   }
 }
 
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {  }
+@media (max-width: 575.98px) {
+}
 
 // Extra large devices (large desktops)
 // No media query since the extra-large breakpoint has no upper bound on its width
 
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { }
+@media (max-width: 575.98px) {
+}
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) { }
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) { }
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -116,4 +203,5 @@
 }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {
+}
