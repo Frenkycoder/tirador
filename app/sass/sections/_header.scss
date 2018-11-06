@@ -41,8 +41,15 @@
   &__item {
     display: inline-block;
     margin-right: 52px;
+    &_top {
+      display: none;
+    }
+    &_beforelast {
+      margin-right: 0;
+    }
     &:last-child {
       margin-right: 0;
+      display: none;
     }
   }
 }

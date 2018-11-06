@@ -36,6 +36,38 @@
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
+  .slider {
+    &-col {
+      padding: 0 5%;
+    }
+  }
+  .hero {
+    padding-bottom: 75px;
+  }
+  .bas {
+    padding: 75px 0;
+    & .mycontainer-fluid {
+      margin-left: 0;
+    }
+  }
+  .grey {
+    padding-top: 52px;
+    padding-bottom: 60px;
+  }
+  .slider {
+    padding: 75px 0;
+  }
+  .form {
+    height: auto;
+    padding-top: 36px;
+    padding-bottom: 45px;
+  }
+  .footer {
+    padding-top: 75px;
+    & .row {
+      margin-bottom: 60px;
+    }
+  }
   .soc {
     &__item {
       margin-right: 7px;
@@ -55,21 +87,101 @@
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
+  .form {
+    & .email, & .user {
+      width: 210px;
+    }
+  }
   .nav {
     &__item {
-      margin-right: 15px;
+      margin-right: 13px;
     }
   }
 }
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
+  .footer {
+    text-align: center;
+    & .firstcol {
+      padding-right: 0;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    & .copy, & .search, & .soc {
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+  }
+  .footlist {
+    margin-bottom: 30px;
+    & li {
+      margin-bottom: 10px;
+    }
+  }
+
+  .form {
+    & .email {
+      margin: 0 auto;
+    }
+    & .btn {
+      margin-top: 0;
+    }
+    & input {
+      margin-bottom: 20px;
+    }
+  }
+  .grey {
+    & .box {
+      & .title, & p {
+        margin-bottom: 20px;
+      }
+      & .subtitle {
+        margin-bottom: 12px;
+      }
+    }
+  }
+  .title {
+    font-size: 40px;
+    line-height: 40px;
+  }
   .hero {
+    &__span {
+      color: $bl;
+      padding-bottom: 20px;
+    }
+    &__price {
+      padding-bottom: 0;
+    }
     &__chair {
       padding-top: 0;
     }
     &__box {
-      margin-top: 0;
+      display: none;
+    }
+    &__wrap {
+      max-height: 580px;
+      width: 100%;
+      & img {
+        max-width: 75%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+      }
+      & .hero__box {
+        display: flex;
+        position: absolute;
+        left: 46%;
+        transform: translateX(-50%);
+        top: 30%;
+        height: auto;
+      }
+      & .title {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20%;
+      }
     }
   }
   .header__top {
@@ -89,7 +201,7 @@
     padding-top: 21px;
   }
   .fa-close {
-    color: $wh;
+    color: $bl;
     display: block;
     padding-right: 5px;
     padding-top: 5px;
@@ -130,7 +242,7 @@
       height: 100%;
       z-index: 998;
       background: #000;
-      background: rgba(0, 0, 0, .85);
+      background: rgba(167, 167, 167, .85);
       cursor: default;
     }
     & .menu-close {
@@ -146,16 +258,16 @@
       box-shadow: -8px 0 8px rgba(0, 0, 0, .5);
       min-height: 100%;
       width: 200px;
-      background: #1a1a1a;
+      background: #fff;
     }
     &__link {
       display: block;
       padding: .75em 15px;
       line-height: 1em;
       font-size: 1em;
-      color: #fff;
+      color: $bl;
       text-decoration: none;
-      border-bottom: 1px solid #383838;
+      border-bottom: 1px solid #A7A7A7;
       &:hover, &:focus {
         background: #333;
         text-decoration: underline;
@@ -164,9 +276,21 @@
     &__item {
       margin-right: 0;
       display: block;
+      &_top {
+        display: block;
+        & a {
+          color: #A7A7A7;
+        }
+      }
+      &:last-child {
+        display: block;
+        & ul {
+          text-align: center;
+        }
+      }
     }
     &__item:first-child a {
-      border-top: 1px solid #383838;
+      border-top: 1px solid #A7A7A7;
     }
   }
   @supports (position: fixed) {
@@ -180,6 +304,7 @@
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+
 }
 
 // Extra large devices (large desktops)
@@ -187,6 +312,24 @@
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+  .hero {
+    &__chair {
+      margin-top: 20px;
+      & .col-md-7 {
+        padding: 0;
+      }
+    }
+    &__wrap {
+      margin-bottom: 20px;
+      height: 400px;
+      border-radius: inherit;
+      & .title {
+        font-size: 30px;
+        line-height: 30px;
+        top: 30%;
+      }
+    }
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -203,5 +346,10 @@
 }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .slider {
+    &-col {
+      padding: 0 6%;
+    }
+  }
 }

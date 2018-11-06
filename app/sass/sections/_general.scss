@@ -50,10 +50,11 @@
       bottom: 0;
       right: 74px;
     }
+    & .hero__box {
+      display: none;
+    }
   }
-  &__mouse {
 
-  }
   &__txt {
     & li {
       display: inline-block;
