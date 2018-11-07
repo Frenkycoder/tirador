@@ -16,6 +16,7 @@
     height: 45px;
     & .col-md-2 {
       align-items: center;
+      text-align: left;
     }
   }
 }
@@ -59,10 +60,10 @@
   text-align: right;
   &__item {
     display: inline-block;
-    margin-right: 17px;
+    margin-left: 17px;
     margin-bottom: 50px;
     &:last-child {
-      margin-right: 0;
+      margin-left: 0;
     }
   }
   &__link {

@@ -70,7 +70,7 @@
   }
   .soc {
     &__item {
-      margin-right: 7px;
+      margin-left: 7px;
     }
   }
   .nav {
@@ -251,6 +251,8 @@
       top: 0;
     }
     &__list {
+      @include flex;
+      flex-direction: column;
       list-style: none;
       margin: 0;
       padding: 2.5em 0 0;
@@ -263,6 +265,7 @@
     &__link {
       display: block;
       padding: .75em 15px;
+      width: 100%;
       line-height: 1em;
       font-size: 1em;
       color: $bl;
@@ -275,7 +278,6 @@
     }
     &__item {
       margin-right: 0;
-      display: block;
       &_top {
         display: block;
         & a {
@@ -289,7 +291,7 @@
         }
       }
     }
-    &__item:first-child a {
+    &__item.order-0 a {
       border-top: 1px solid #A7A7A7;
     }
   }
