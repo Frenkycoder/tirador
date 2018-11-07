@@ -4,8 +4,8 @@
     <list default="true" id="71f683a7-60a5-4484-9156-621d0b6efa9e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/index.html" afterPath="$PROJECT_DIR$/app/pages/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/sections/_footer.scss" afterPath="$PROJECT_DIR$/app/sass/sections/_footer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/sections/_general.scss" afterPath="$PROJECT_DIR$/app/sass/sections/_general.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/sections/_header.scss" afterPath="$PROJECT_DIR$/app/sass/sections/_header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/sections/_media.scss" afterPath="$PROJECT_DIR$/app/sass/sections/_media.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,39 +16,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.2602118">
+    <splitter split-orientation="horizontal" split-proportion="0.2730711">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="_general.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_general.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/sections/_general.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="352">
-                  <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_media.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/sass/sections/_media.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="206">
-                  <caret line="193" column="18" lean-forward="true" selection-start-line="193" selection-start-column="18" selection-end-line="193" selection-end-column="18" />
+                <state relative-caret-position="248">
+                  <caret line="203" column="34" lean-forward="false" selection-start-line="203" selection-start-column="34" selection-end-line="203" selection-end-column="34" />
                   <folding>
-                    <element signature="e#627#1256#0" expanded="false" />
-                    <element signature="e#1332#1458#0" expanded="false" />
-                    <element signature="e#5353#5357#0" expanded="false" />
+                    <element signature="e#1652#1826#0" expanded="false" />
+                    <element signature="e#1836#1864#0" expanded="false" />
+                    <element signature="e#1874#1990#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="bootstrap-grid.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/libs/boot/bootstrap-grid.css">
+          <file leaf-file-name="_media.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/sass/sections/_media.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="793">
-                  <caret line="579" column="10" lean-forward="false" selection-start-line="579" selection-start-column="10" selection-end-line="579" selection-end-column="10" />
-                  <folding />
+                <state relative-caret-position="580">
+                  <caret line="136" column="19" lean-forward="false" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#627#1256#0" expanded="false" />
+                    <element signature="e#1332#1458#0" expanded="false" />
+                    <element signature="e#5407#5411#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -57,7 +51,7 @@
             <entry file="file://$PROJECT_DIR$/gulpfile.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="154">
-                  <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+                  <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -70,16 +64,42 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/pages/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2156">
-                  <caret line="130" column="26" lean-forward="false" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
+                <state relative-caret-position="88">
+                  <caret line="449" column="42" lean-forward="false" selection-start-line="449" selection-start-column="42" selection-end-line="449" selection-end-column="42" />
                   <folding>
                     <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#header#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
-                    <element signature="n#section#1;n#div#0;n#body#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#div#0;n#section#2;n#div#0;n#body#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#section#3;n#div#0;n#body#0;n#!!top" expanded="true" />
                     <element signature="n#section#3;n#div#0;n#body#0;n#!!top" expanded="false" />
-                    <element signature="n#div#3;n#div#0;n#div#0;n#footer#0;n#body#0;n#!!top" expanded="false" />
-                    <element signature="n#div#4;n#div#0;n#div#0;n#footer#0;n#body#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#!!top" expanded="false" />
+                    <element signature="n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/sass/sections/_footer.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="309">
+                  <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bootstrap-grid.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/libs/boot/bootstrap-grid.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3413">
+                  <caret line="644" column="26" lean-forward="false" selection-start-line="644" selection-start-column="26" selection-end-line="644" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#4415#7256#0" expanded="false" />
+                    <element signature="e#7258#10099#0" expanded="false" />
+                    <element signature="e#10101#12942#0" expanded="false" />
+                    <element signature="e#10139#10260#0" expanded="false" />
+                    <element signature="e#10276#10363#0" expanded="false" />
+                    <element signature="e#12944#15786#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -89,7 +109,7 @@
             <entry file="file://$PROJECT_DIR$/app/sass/sections/_header.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="352">
-                  <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="22" />
+                  <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -110,9 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cnn</find>
-      <find>.tabs</find>
-      <find>our</find>
       <find>.post</find>
       <find>../img</find>
       <find>mbg</find>
@@ -140,6 +157,9 @@
       <find>.order</find>
       <find>.nav</find>
       <find>.soc</find>
+      <find>.mycontainer-fluid</find>
+      <find>.grey</find>
+      <find>.copy</find>
     </findStrings>
     <replaceStrings>
       <replace>/img/</replace>
@@ -187,14 +207,14 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/app/js/first.js" />
-        <option value="$PROJECT_DIR$/app/sass/sections/_footer.scss" />
         <option value="$PROJECT_DIR$/app/sass/main.scss" />
         <option value="$PROJECT_DIR$/app/sass/layout/_settings.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/sass/sections/_media.scss" />
         <option value="$PROJECT_DIR$/app/sass/sections/_header.scss" />
-        <option value="$PROJECT_DIR$/app/pages/index.html" />
         <option value="$PROJECT_DIR$/app/sass/sections/_general.scss" />
+        <option value="$PROJECT_DIR$/app/sass/sections/_media.scss" />
+        <option value="$PROJECT_DIR$/app/sass/sections/_footer.scss" />
+        <option value="$PROJECT_DIR$/app/pages/index.html" />
       </list>
     </option>
   </component>
@@ -257,6 +277,11 @@
             <path>
               <item name="dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -346,12 +371,12 @@
       <workItem from="1541435261508" duration="1057000" />
       <workItem from="1541495832198" duration="13156000" />
       <workItem from="1541518967914" duration="189000" />
-      <workItem from="1541575129143" duration="14431000" />
+      <workItem from="1541575129143" duration="18769000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="425254000" />
+    <option name="totallyTimeSpent" value="429592000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -364,9 +389,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1376702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -374,7 +400,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -611,13 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/sections/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -635,35 +654,7 @@
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/libs/boot/bootstrap-grid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="793">
-          <caret line="579" column="10" lean-forward="false" selection-start-line="579" selection-start-column="10" selection-end-line="579" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/sections/_media.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="193" column="18" lean-forward="true" selection-start-line="193" selection-start-column="18" selection-end-line="193" selection-end-column="18" />
-          <folding>
-            <element signature="e#627#1256#0" expanded="false" />
-            <element signature="e#1332#1458#0" expanded="false" />
-            <element signature="e#5353#5357#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/sections/_general.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -671,23 +662,69 @@
     <entry file="file://$PROJECT_DIR$/app/sass/sections/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="22" />
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/sections/_general.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="203" column="34" lean-forward="false" selection-start-line="203" selection-start-column="34" selection-end-line="203" selection-end-column="34" />
+          <folding>
+            <element signature="e#1652#1826#0" expanded="false" />
+            <element signature="e#1836#1864#0" expanded="false" />
+            <element signature="e#1874#1990#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/sections/_media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="136" column="19" lean-forward="false" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+          <folding>
+            <element signature="e#627#1256#0" expanded="false" />
+            <element signature="e#1332#1458#0" expanded="false" />
+            <element signature="e#5407#5411#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/boot/bootstrap-grid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3413">
+          <caret line="644" column="26" lean-forward="false" selection-start-line="644" selection-start-column="26" selection-end-line="644" selection-end-column="26" />
+          <folding>
+            <element signature="e#4415#7256#0" expanded="false" />
+            <element signature="e#7258#10099#0" expanded="false" />
+            <element signature="e#10101#12942#0" expanded="false" />
+            <element signature="e#10139#10260#0" expanded="false" />
+            <element signature="e#10276#10363#0" expanded="false" />
+            <element signature="e#12944#15786#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/sections/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2156">
-          <caret line="130" column="26" lean-forward="false" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
+        <state relative-caret-position="88">
+          <caret line="449" column="42" lean-forward="false" selection-start-line="449" selection-start-column="42" selection-end-line="449" selection-end-column="42" />
           <folding>
             <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#header#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#div#0;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#section#2;n#div#0;n#body#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#section#3;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#section#3;n#div#0;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#footer#0;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#footer#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -143,8 +143,16 @@
     </section>
     <section class="bas">
         <div class="mycontainer-fluid">
-            <div class="img-col">
-                <img src="../img/bas.png" alt="">
+            <div class="list-col">
+                <ul class="bas__list">
+                    <li class="bas__item"><a href="" class="bas__link">ידיות לרהיטים</a></li>
+                    <li class="bas__item"><a href="" class="bas__link">ידיות לדלתות</a></li>
+                    <li class="bas__item"><a href="" class="bas__link">אביזרי אמבטיה</a></li>
+                    <li class="bas__item"><a href="" class="bas__link">פחים</a></li>
+                    <li class="bas__item"><a href="" class="bas__link">מוצרי עץ</a></li>
+                    <li class="bas__item"><a href="" class="bas__link">פרזול משלים</a></li>
+                    <li class="bas__item"><a href="" class="bas__link">הום סטיילינג</a></li>
+                </ul>
             </div>
             <div class="text-col">
                 <div class="box">
@@ -167,21 +175,32 @@
                     <button class="btn"><i class="fa fa-angle-left"></i>למד עוד</button>
                 </div>
             </div>
-            <div class="list-col">
-                <ul class="bas__list">
-                    <li class="bas__item"><a href="" class="bas__link">ידיות לרהיטים</a></li>
-                    <li class="bas__item"><a href="" class="bas__link">ידיות לדלתות</a></li>
-                    <li class="bas__item"><a href="" class="bas__link">אביזרי אמבטיה</a></li>
-                    <li class="bas__item"><a href="" class="bas__link">פחים</a></li>
-                    <li class="bas__item"><a href="" class="bas__link">מוצרי עץ</a></li>
-                    <li class="bas__item"><a href="" class="bas__link">פרזול משלים</a></li>
-                    <li class="bas__item"><a href="" class="bas__link">הום סטיילינג</a></li>
-                </ul>
+
+            <div class="img-col">
+                <img src="../img/bas.png" alt="">
             </div>
         </div>
     </section>
     <section class="bas bas_sec white-background">
         <div class="mycontainer-fluid">
+            <div class="list-col">
+                <ul class="bas__list">
+                    <li class="bas__item"><a href="" class="bas__link"><img src="../img/moroso.png" alt=""
+                                                                            class="bas__img"></a></li>
+                    <li class="bas__item"><a href="" class="bas__link"><img src="../img/zone-denmark-logo.png" alt=""
+                                                                            class="bas__img"></a></li>
+                    <li class="bas__item"><a href="" class="bas__link"><img src="../img/wall-deco.png" alt=""
+                                                                            class="bas__img"></a></li>
+                    <li class="bas__item"><a href="" class="bas__link"><img src="../img/capodopera.png" alt=""
+                                                                            class="bas__img"></a></li>
+                    <li class="bas__item"><a href="" class="bas__link"><img src="../img/valcucine.png" alt=""
+                                                                            class="bas__img"></a></li>
+                    <li class="bas__item"><a href="" class="bas__link"><i class="fa fa-angle-bottom"></i></a></li>
+                </ul>
+            </div>
+            <div class="img-col">
+                <img src="../img/hand.png" alt="">
+            </div>
             <div class="text-col">
                 <div class="box">
                     <h2 class="title">ספקים</h2>
@@ -202,25 +221,6 @@
                     </p>
                     <button class="btn"><i class="fa fa-angle-right"></i>למד עוד</button>
                 </div>
-            </div>
-            <div class="img-col">
-                <img src="../img/hand.png" alt="">
-            </div>
-            <div class="list-col">
-                <ul class="bas__list">
-                    <li class="bas__item"><a href="" class="bas__link"><img src="../img/moroso.png" alt=""
-                                                                            class="bas__img"></a></li>
-                    <li class="bas__item"><a href="" class="bas__link"><img src="../img/zone-denmark-logo.png" alt=""
-                                                                            class="bas__img"></a></li>
-                    <li class="bas__item"><a href="" class="bas__link"><img src="../img/wall-deco.png" alt=""
-                                                                            class="bas__img"></a></li>
-                    <li class="bas__item"><a href="" class="bas__link"><img src="../img/capodopera.png" alt=""
-                                                                            class="bas__img"></a></li>
-                    <li class="bas__item"><a href="" class="bas__link"><img src="../img/valcucine.png" alt=""
-                                                                            class="bas__img"></a></li>
-                    <li class="bas__item"><a href="" class="bas__link"><i class="fa fa-angle-bottom"></i></a></li>
-
-                </ul>
             </div>
         </div>
     </section>
@@ -378,21 +378,22 @@
                     <form action="" method="post">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-4 col-12">
+                                <div class="order-1 order-md-3 col-md-4 col-12">
                                     <div class="email">
                                         <img src="../img/mail.png" alt="">
                                         <input id="email" type="email" class="form__field">
                                         <label for="email">מייל</label>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-12">
+
+                                <div class="order-2 order-md-2 col-md-4 col-12">
                                     <div class="user">
                                         <img src="../img/user.png" alt="">
                                         <input id="user" type="text" class="form__field">
                                         <label for="user">משפחה</label>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-12">
+                                <div class="order-3 order-md-1 col-md-4 col-12">
                                     <div class="user">
                                         <img src="../img/user.png" alt="">
                                         <input id="use2" type="text" class="form__field">
@@ -411,10 +412,26 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 firstcol">
-                <img src="../img/logo.png" alt="" class="logo">
-                <a href="tel:086309000" class="phone">טלפון: 086309000</a>
-                <a href="mailto:info@tirador.co.il" class="mail"><span>info@tirador.co.il </span> :דואר אלקטרוני</a>
+            <div class="col-12 col-sm-6 col-md-2">
+                <ul class="footlist">
+                    <li><a href="#">אודותנו</a></li>
+                    <li><a href="#">המותגים שלנו</a></li>
+                    <li><a href="#">המוצרים שלנו</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-2">
+                <ul class="footlist">
+                    <li><a href="#">אודותנו</a></li>
+                    <li><a href="#">המותגים שלנו</a></li>
+                    <li><a href="#">המוצרים שלנו</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-2">
+                <ul class="footlist">
+                    <li><a href="#">אודותנו</a></li>
+                    <li><a href="#">המותגים שלנו</a></li>
+                    <li><a href="#">המוצרים שלנו</a></li>
+                </ul>
             </div>
             <div class="col-12 col-sm-6 col-md-2 offset-md-1">
                 <ul class="footlist">
@@ -423,50 +440,34 @@
                     <li><a href="#">אודותנו</a></li>
                 </ul>
             </div>
-            <div class="col-12 col-sm-6 col-md-2">
-                <ul class="footlist">
-                    <li><a href="#">אודותנו</a></li>
-                    <li><a href="#">המותגים שלנו</a></li>
-                    <li><a href="#">המוצרים שלנו</a></li>
-                </ul>
-            </div>
-            <div class="col-12 col-sm-6 col-md-2">
-                <ul class="footlist">
-                    <li><a href="#">אודותנו</a></li>
-                    <li><a href="#">המותגים שלנו</a></li>
-                    <li><a href="#">המוצרים שלנו</a></li>
-                </ul>
-            </div>
-            <div class="col-12 col-sm-6 col-md-2">
-                <ul class="footlist">
-                    <li><a href="#">אודותנו</a></li>
-                    <li><a href="#">המותגים שלנו</a></li>
-                    <li><a href="#">המוצרים שלנו</a></li>
-                </ul>
+            <div class="col-md-3 firstcol">
+                <img src="../img/logo.png" alt="" class="logo">
+                <a href="tel:086309000" class="phone">טלפון: 086309000</a>
+                <a href="mailto:info@tirador.co.il" class="mail"><span>info@tirador.co.il </span> :דואר אלקטרוני</a>
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-md-4">
+            <div class="order-1 order-md-3 col-12 col-md-4">
                 <div class="copy">
                     © Copyright 2018 by LAGERBOX
                 </div>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="order-2 order-md-2 col-12 col-md-4">
                 <form action="" class="search">
                     <i class="fa fa-search"></i>
                     <input id="search" type="search">
                     <label for="search">לחפש</label>
                 </form>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="order-3 order-md-1 col-12 col-md-4">
                 <ul class="soc">
-                    <li class="soc__item"><a href="" class="soc__link"><img src="../img/instagramred.png" alt=""></a>
-                    </li>
-                    <li class="soc__item"><a href="" class="soc__link"><img src="../img/facebookred.png" alt=""></a>
+                    <li class="soc__item"><a href="" class="soc__link"><img src="../img/youtubered.png" alt=""></a>
                     </li>
                     <li class="soc__item"><a href="" class="soc__link"><img src="../img/pinterestred.png" alt=""></a>
                     </li>
-                    <li class="soc__item"><a href="" class="soc__link"><img src="../img/youtubered.png" alt=""></a>
+                    <li class="soc__item"><a href="" class="soc__link"><img src="../img/facebookred.png" alt=""></a>
+                    </li>
+                    <li class="soc__item"><a href="" class="soc__link"><img src="../img/instagramred.png" alt=""></a>
                     </li>
                 </ul>
             </div>

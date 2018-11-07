@@ -133,6 +133,9 @@
     }
   }
   .grey {
+    & .mycontainer-fluid {
+      padding: 0 5%;
+    }
     & .box {
       & .title, & p {
         margin-bottom: 20px;
