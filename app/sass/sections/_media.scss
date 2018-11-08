@@ -113,6 +113,11 @@
       margin: 0 auto;
       margin-bottom: 20px;
     }
+    & .row {
+      &:last-child {
+        margin-bottom: 20px;
+      }
+    }
   }
   .footlist {
     margin-bottom: 30px;

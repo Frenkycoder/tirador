@@ -1,6 +1,9 @@
 .hero {
   background-color: $wh;
   padding-bottom: 150px;
+  &__mouse {
+    cursor: pointer;
+  }
   &__price {
     font-size: 20px;
     font-weight: bold;

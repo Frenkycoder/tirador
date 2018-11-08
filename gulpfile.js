@@ -35,13 +35,15 @@ var moduleJs = [
 // Пути к нашим внешним плагинам и библиотекам javascript
 var vendorJs = [
     'app/libs/jquery/dist/jquery.min.js',
+    'app/libs/slick-carousel/slick/slick.js'
 ];
 // Пути к нашим внешним плагинам и библиотекам css
 var vendorCss = [
     'app/libs/normalize-css/normalize.css',
     'app/libs/font-awesome/css/font-awesome.css',
     'app/libs/boot/bootstrap-grid.css',
-    'app/libs/animate/animate.css'
+    'app/libs/animate/animate.css',
+    'app/libs/slick-carousel/slick/slick.css'
 ];
 
 // Запускаем сервер. Предварительно выполнив задачи ['html', 'styles', 'images',
