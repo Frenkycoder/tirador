@@ -47,6 +47,33 @@ var first = (function() {
                 rtl: true,
                 cssEase: 'linear'
             });
+            
+            $('.header__slide').on('afterChange', function(event, slick, currentSlide){
+                $('.slick-active .title').removeClass('hidden');
+                $('.slick-active .title').addClass('animated slideInLeft');
+                $('.slick-active .hero__price').removeClass('hidden');
+                $('.slick-active .hero__price').addClass('animated slideInRight');
+                $('.slick-active .hero__span').removeClass('hidden');
+                $('.slick-active .hero__span').addClass('animated slideInUp');
+                $('.slick-active .btn').removeClass('hidden');
+                $('.slick-active .btn').addClass('animated slideInDown');
+                $('.slick-active .hero__img').removeClass('hidden');
+                $('.slick-active .hero__img').addClass('animated zoomIn');
+            });
+
+            $('.header__slide').on('beforeChange', function(event, slick, currentSlide){
+                $('.slick-active .title').removeClass('animated slideInLeft');
+                $('.slick-active .title').addClass('hidden');
+                $('.slick-active .hero__price').removeClass('animated slideInRight');
+                $('.slick-active .hero__price').addClass('hidden');
+                $('.slick-active .hero__span').removeClass('animated slideInUp');
+                $('.slick-active .hero__span').addClass('hidden');
+                $('.slick-active .btn').removeClass('animated slideInDown');
+                $('.slick-active .btn').addClass('hidden');
+                $('.slick-active .hero__img').removeClass('animated zoomIn');
+                $('.slinck-active .hero__img').addClass('hidden');
+            });
+
             $('#users').validate({
                 rules : {
                     email: {
@@ -67,60 +94,6 @@ var first = (function() {
                 }
             });
 
-            //     new SmoothScroll(document,120,12);
-            //
-            // function SmoothScroll(target, speed, smooth) {
-            //     if (target == document)
-            //         target = (document.documentElement || document.body.parentNode || document.body) // cross browser support for document scrolling
-            //     var moving = false
-            //     var pos = target.scrollTop
-            //     target.addEventListener('mousewheel', scrolled, false)
-            //     target.addEventListener('DOMMouseScroll', scrolled, false)
-            //
-            //     function scrolled(e) {
-            //         e.preventDefault(); // disable default scrolling
-            //
-            //         var delta = normalizeWheelDelta(e)
-            //
-            //         pos += -delta * speed
-            //         pos = Math.max(0, Math.min(pos, target.scrollHeight - target.clientHeight)) // limit scrolling
-            //
-            //         if (!moving) update()
-            //     }
-            //
-            //     function normalizeWheelDelta(e){
-            //         if(e.detail){
-            //             if(e.wheelDelta)
-            //                 return e.wheelDelta/e.detail/40 * (e.detail>0 ? 1 : -1) // Opera
-            //             else
-            //                 return -e.detail/3 // Firefox
-            //         }else
-            //             return e.wheelDelta/120 // IE,Safari,Chrome
-            //     }
-            //
-            //     function update() {
-            //         moving = true
-            //         var delta = (pos - target.scrollTop) / smooth
-            //         target.scrollTop += delta
-            //         if (Math.abs(delta) > 0.5)
-            //             requestFrame(update)
-            //         else
-            //             moving = false
-            //     }
-            //
-            //     var requestFrame = function() { // requestAnimationFrame cross browser
-            //         return (
-            //             window.requestAnimationFrame ||
-            //             window.webkitRequestAnimationFrame ||
-            //             window.mozRequestAnimationFrame ||
-            //             window.oRequestAnimationFrame ||
-            //             window.msRequestAnimationFrame ||
-            //             function(func) {
-            //                 window.setTimeout(func, 1000 / 50);
-            //             }
-            //         );
-            //     }()
-            // }
         });
     }
 

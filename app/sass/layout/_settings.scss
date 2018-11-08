@@ -127,6 +127,21 @@ dd {
     text-align: right;
 }
 
+.searchinput {
+  &::-webkit-input-placeholder {
+    color: #A7A7A7!important;
+  }
+  &:-moz-placeholder {
+    color: #A7A7A7!important;
+  }
+  &::-moz-placeholder {
+    color: #A7A7A7!important;
+  }
+}
+:-ms-input-placeholder {
+  color: #A7A7A7!important;
+
+}
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
     color: #666;
