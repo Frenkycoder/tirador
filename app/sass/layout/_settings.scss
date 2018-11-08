@@ -96,31 +96,35 @@ dd {
 }
 
 *::-webkit-input-placeholder {
-    // color: !important;
+    color: #fff!important;
     opacity: 1;
     text-transform: uppercase;
-    font-size: 11px!important;
+    font-size: 14px!important;
+    text-align: right;
 }
 
 *:-moz-placeholder {
-    // color: !important;
+    color: #fff!important;
     opacity: 1;
     text-transform: uppercase;
-    font-size: 11px!important;
+    font-size: 14px!important;
+    text-align: right;
 }
 
 *::-moz-placeholder {
-    // color: !important;
+    color: #fff!important;
     opacity: 1;
     text-transform: uppercase;
-    font-size: 11px!important;
+    font-size: 14px!important;
+    text-align: right;
 }
 
 *:-ms-input-placeholder {
-    // color: !important;
+    color: #fff!important;
     opacity: 1;
     text-transform: uppercase;
-    font-size: 11px!important;
+    font-size: 14px!important;
+    text-align: right;
 }
 
 body input:focus:required:invalid,

@@ -43,8 +43,28 @@ var first = (function() {
                 autoplay: true,
                 arrows: false,
                 fade: true,
-                speed: 500,
+                speed: 900,
+                rtl: true,
                 cssEase: 'linear'
+            });
+            $('#users').validate({
+                rules : {
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    user: {
+                        required: true,
+                        minlength: 3
+                    },
+                    user2: {
+                        required: true,
+                        minlength: 3
+                    },
+                    submitHandler: function () {
+                        alert('valid');
+                    }
+                }
             });
 
             //     new SmoothScroll(document,120,12);
