@@ -34,6 +34,7 @@ var first = (function() {
                 li.removeClass('active animated fadeIn');
                 li.prev().addClass('active animated fadeIn');
             });
+
             $(".hero__mouse").click(function() {
                 $('html,body').animate({
                         scrollTop: $("#firsttab").offset().top},
