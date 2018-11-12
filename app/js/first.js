@@ -35,8 +35,6 @@ var first = (function () {
                  li.removeClass("openLi");
                  openLi.next().addClass("openLi").find(".actbox").clone().prependTo(".active");
              });
-            //Алгоритм слайдера
-
 
             $(".hero__mouse").click(function () {
                 $('html,body').animate({
@@ -44,6 +42,8 @@ var first = (function () {
                     },
                     'slow');
             });
+
+            //header slider
             $('.header__slide').slick({
                 autoplay: true,
                 arrows: false,
@@ -98,6 +98,11 @@ var first = (function () {
                     }
                 }
             });
+
+            //tabs
+            $( "#tabs" ).tabs();
+            $( "#tabs2" ).tabs();
+
 
         });
     }

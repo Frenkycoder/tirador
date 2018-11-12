@@ -36,6 +36,7 @@
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
+
   .slider {
     &-col {
       padding: 0 5%;
@@ -46,6 +47,23 @@
   }
   .bas {
     padding: 75px 0;
+    &__wrap, &__wrap_2 {
+      flex: 0 0 85%;
+      max-width: 85%;
+    & .text-col, & .img-col {
+      flex: 0 0 90%;
+      max-width: 90%;
+    }
+      & .text-col {
+        order: 2;
+      }
+      & .img-col {
+        margin-right: 6%;
+        order: 1;
+        margin-bottom: 20px;
+      }
+    }
+
     & .mycontainer-fluid {
       margin-left: 0;
     }
@@ -308,6 +326,12 @@
     .nav:target + .backdrop,
     .nav[aria-expanded="true"] + .backdrop {
       position: fixed;
+    }
+  }
+  .bas {
+    & .list-col {
+      flex: 0 0 15%;
+      max-width: 15%;
     }
   }
 }
