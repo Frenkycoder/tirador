@@ -67,6 +67,18 @@
     & .mycontainer-fluid {
       margin-left: 0;
     }
+    &__link {
+      &:hover, &:active {
+        &::after {
+          width: 20%;
+        }
+      }
+    }
+    & .ui-state-active a {
+      &::after {
+        width: 20%;
+      }
+    }
   }
   .grey {
     padding-top: 52px;
@@ -333,7 +345,19 @@
       flex: 0 0 15%;
       max-width: 15%;
     }
+    & .ui-state-active a {
+      &::after {
+        display: none;
+      }
   }
+    &__link {
+      &:hover, &:active {
+        &::after {
+          display: none;
+        }
+        }
+      }
+    }
 }
 
 // Extra small devices (portrait phones, less than 576px)
