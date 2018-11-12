@@ -1,43 +1,47 @@
-var first = (function() {
-    var init = function() {
-        $(function() {
-        //slider
+var first = (function () {
+    var init = function () {
+        $(function () {
+            //slider
 
-           $('.slidelink').on("click", function (e) {
-               e.preventDefault();
-               $(".slider__list").find("li").removeClass("active animated fadeIn");
-               $(this).parent().parent().addClass("active animated fadeIn");
-           });
-
-           //right slider control
-           $('.right').on("click", function (e) {
-               e.preventDefault();
-               var li = $('li.active');
-               if($('ul.slider__list li:last').hasClass("active")) {
-                   li.removeClass('active animated fadeIn');
-                   $('ul.slider__list li:first').addClass('active animated fadeIn');
-               }
-               li.removeClass('active animated fadeIn');
-               li.next().addClass('active animated fadeIn');
-           });
-
-            //left slider control
-            $('.left').on("click", function (e) {
+            $('.slidelink').on("click", function (e) {
                 e.preventDefault();
-                // var firstLi = $('.slider__item:first-child');
-                // var lastLi = $('.slider__item:last-child');
-                var li = $('li.active');
-                if($('ul.slider__list li:first').hasClass("active")) {
-                    li.removeClass('active animated fadeIn');
-                    $('ul.slider__list li:last').addClass('active animated fadeIn');
-                }
-                li.removeClass('active animated fadeIn');
-                li.prev().addClass('active animated fadeIn');
+                $(".slider__item").removeClass("openLi");
+                $(this).parent().parent().addClass("openLi");
+                $(".active").children(".actbox").remove();
+                $(this).parent().parent().find(".actbox").clone().prependTo(".active");
             });
 
-            $(".hero__mouse").click(function() {
+            //right slider control
+            $('.right').on("click", function (e) {
+                e.preventDefault();
+                var openLi = $('li.openLi');
+                var li = $('.slider__item');
+                $(".active").children(".actbox").remove();
+                li.removeClass("openLi");
+                if (openLi.prev().hasClass("active")) {
+                    $("ul.slider__list li:last").addClass("openLi").find(".actbox").clone().prependTo(".active");
+                } else {
+                    openLi.prev().addClass("openLi").find(".actbox").clone().prependTo(".active");
+                }
+
+            });
+            //
+             //left slider control
+             $('.left').on("click", function (e) {
+                 e.preventDefault();
+                 var openLi = $('li.openLi');
+                 var li = $('.slider__item');
+                 $(".active").children(".actbox").remove();
+                 li.removeClass("openLi");
+                 openLi.next().addClass("openLi").find(".actbox").clone().prependTo(".active");
+             });
+            //Алгоритм слайдера
+
+
+            $(".hero__mouse").click(function () {
                 $('html,body').animate({
-                        scrollTop: $("#firsttab").offset().top},
+                        scrollTop: $("#firsttab").offset().top
+                    },
                     'slow');
             });
             $('.header__slide').slick({
@@ -48,8 +52,8 @@ var first = (function() {
                 rtl: true,
                 cssEase: 'linear'
             });
-            
-            $('.header__slide').on('afterChange', function(event, slick, currentSlide){
+
+            $('.header__slide').on('afterChange', function (event, slick, currentSlide) {
                 $('.slick-active .title').removeClass('hidden');
                 $('.slick-active .title').addClass('animated slideInLeft');
                 $('.slick-active .hero__price').removeClass('hidden');
@@ -62,7 +66,7 @@ var first = (function() {
                 $('.slick-active .hero__img').addClass('animated zoomIn');
             });
 
-            $('.header__slide').on('beforeChange', function(event, slick, currentSlide){
+            $('.header__slide').on('beforeChange', function (event, slick, currentSlide) {
                 $('.slick-active .title').removeClass('animated slideInLeft');
                 $('.slick-active .title').addClass('hidden');
                 $('.slick-active .hero__price').removeClass('animated slideInRight');
@@ -76,7 +80,7 @@ var first = (function() {
             });
 
             $('#users').validate({
-                rules : {
+                rules: {
                     email: {
                         required: true,
                         email: true

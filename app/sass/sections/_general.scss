@@ -239,7 +239,7 @@
 .slider {
   padding: 150px 0;
   & .active {
-    animation-duration: 2s;
+    transition: all 0.25s ease-out;
     & .actbox {
       opacity: 1;
       display: block;
@@ -382,7 +382,6 @@
   &__field {
     width: 100%;
     height: 30px;
-    text-align: right;
     border: 0;
     background-color: transparent;
     border-bottom: 1px solid $wh;
